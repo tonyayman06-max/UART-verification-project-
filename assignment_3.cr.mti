@@ -1,0 +1,33 @@
+{C:/Users/tony 25/Desktop/assignment_3/enum_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/tony 25/Desktop/assignment_3/enum_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package enum_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/tony 25/Desktop/assignment_3/Uart_packet.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/tony 25/Desktop/assignment_3/Uart_packet.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Uart_packet
+-- Importing package enum_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/tony 25/Desktop/assignment_3/uart_tx.v} {1 {vlog -work work -vopt -stats=none {C:/Users/tony 25/Desktop/assignment_3/uart_tx.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {C:/Users/tony 25/Desktop/assignment_3/Testbench.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/tony 25/Desktop/assignment_3/Testbench.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Testbench_sv_unit
+-- Importing package enum_pkg
+-- Importing package Uart_packet
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}
